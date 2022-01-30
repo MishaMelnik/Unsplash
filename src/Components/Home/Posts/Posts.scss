@@ -1,0 +1,39 @@
+.posts_container {
+  margin-top: 50px;
+  margin-bottom: 40px;
+
+  .posts_card {
+    cursor: pointer;
+    //height: 500px;
+
+    .posts_cardMedia {
+      padding-top: 35vh;
+    }
+
+    .posts_card_icons {
+      padding-right: 2vw;
+    }
+  }
+
+  .posts_cardActions {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .posts_cardActions_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .posts_cardActions_1_grid {
+      display: flex;
+
+      .posts_cardActions_img {
+        margin: 0.5vh 0.5vw;
+        border-radius: 10px;
+        width: 5.5vw;
+        height: 12vh;
+      }
+    }
+  }
+}

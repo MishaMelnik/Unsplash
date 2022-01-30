@@ -1,0 +1,49 @@
+.modal{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .modal_card{
+    padding: 1vh 2vw;
+    margin: 4vh 4vw;
+    .modal_card_link{
+      display: flex;
+      justify-content: space-between;
+      align-content: center;
+      color: black;
+      text-decoration: none;
+    }
+    .modal_card_scroll{
+      height: 560px;
+      background: white;
+      overflow-y: scroll;
+
+    }
+    .modal_card_icon{
+      display: flex;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+    .modal_card_avatar{
+      //display: flex;
+      .modal_card_avatar_typography{
+        margin-left: 1.5vw;
+      }
+    }
+    .modal_cardMedia {
+      padding: 34vh 24vw;
+    }
+  }
+  .modal_cardActions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .modal_cardActions_grid{
+      display: flex;
+      .modal_cardActions_img{
+        margin: 0.5vh 0.5vw;
+        width: 5vw;
+        height:9vh;
+      }
+    }
+  }
+}
